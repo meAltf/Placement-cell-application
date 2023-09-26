@@ -125,7 +125,7 @@ module.exports.deallocate = async (req, res) => {
       return res.redirect("back");
     }
 
-    req.flash("error", "Interview not found");
+    req.flash("error", "Any Interview not found");
     return res.redirect("back");
   } catch (err) {
     req.flash("error", "Couldn't deallocate from interview");
