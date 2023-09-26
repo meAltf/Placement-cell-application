@@ -38,3 +38,5 @@ userSchema.methods.isValidatedPassword = async function (userSentPassword) {
 const User = mongoose.model("User", userSchema);
 
 module.exports = User;
+
+//Done
