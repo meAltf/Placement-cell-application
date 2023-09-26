@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const app = express();
 
-// const wyatt1 = 'my secret key';
+// const alataf = 'my secret key';
 
 const { PORT, MONGODB_URL, SESSION_SECRET_KEY } = process.env;
 const expressLayouts = require("express-ejs-layouts");
