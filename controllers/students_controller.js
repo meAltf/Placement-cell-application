@@ -69,7 +69,7 @@ module.exports.create = async (req, res) => {
           }
         );
       } else {
-        req.flash("error", "Student already exist!");
+        req.flash("error", "Student already exist!!");
         return res.redirect("back");
       }
     });
