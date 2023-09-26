@@ -15,7 +15,7 @@ router.get("/dashboard", dashboardController.dashboard);
 
 router.post("/create", usersController.create);
 
-// use passport as middleware to authenticate
+// use passport as middleware to authenticates
 router.post(
   "/create-session",
   passport.authenticate("local", { failureRedirect: "/" }),
