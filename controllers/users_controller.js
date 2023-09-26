@@ -56,7 +56,7 @@ module.exports.signUp = (req, res) => {
   });
 };
 
-// get Sign Up data
+// get Sign Up data all
 module.exports.create = async (req, res) => {
   try {
     const { username, email, password, confirm_password } = req.body;
