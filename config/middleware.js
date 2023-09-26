@@ -4,6 +4,5 @@ module.exports.setFlash = function (req, res, next) {
     'error': req.flash('error'),
   };
 
-  //done
   next();
 };
